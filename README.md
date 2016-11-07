@@ -10,4 +10,6 @@ After I sent of this tweet I decided to move my dotfiles to GitHub. I'm still on
 
 For more information about the terminal I'm using, check out [KrauseFx/what-terminal-is-felix-using](https://github.com/KrauseFx/what-terminal-is-felix-using) 🚀
 
+<img src="TerminalScreenshot.png" width="500">
+
 ----
