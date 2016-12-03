@@ -13,3 +13,11 @@ For more information about the terminal I'm using, check out [KrauseFx/what-term
 <img src="TerminalScreenshot.png" width="500">
 
 ----
+
+To clone the repo, do the following
+
+1. `cd`
+1. git init
+1. git remote add origin https://github.com/KrauseFx/dotfiles
+1. git fetch origin
+1. git checkout -b master --track origin/master
