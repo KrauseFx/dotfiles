@@ -23,7 +23,7 @@ function o() {
   z $1 && open .
 }
 
-export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
+export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
