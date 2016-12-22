@@ -26,6 +26,11 @@ function o() {
   z $1 && open .
 }
 
+function e() {
+  _z $1
+  subl .
+}
+
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export PATH="/usr/local/heroku/bin:$PATH"
