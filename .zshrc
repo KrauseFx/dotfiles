@@ -40,6 +40,8 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="$HOME/.fastlane/bin:$PATH"
 
+export FL_PASSWORD="yo"
+
 # we don't want to influence the stats
 export FASTLANE_SKIP_UPDATE_CHECK="1"
 export FASTLANE_OPT_OUT_USAGE="1"
