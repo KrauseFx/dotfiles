@@ -28,6 +28,8 @@ function o() {
 
 function e() {
   _z $1
+  git pull
+  gittower .
   subl .
 }
 
