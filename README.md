@@ -18,4 +18,4 @@ To clone the repo, do the following
 
 1. `cd`
 1. git clone https://github.com/KrauseFx/dotfiles .dotfiles
-1. ln -s ./.dotfiles/.zshrc .zshrc
+1. `ln -s ~/.dotfiles/.zshrc ~/.zshrc`
