@@ -7,8 +7,6 @@ export ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="robbyrussell"
 
-alias git=hub
-
 alias zshrc="subl ~/.zshrc"
 alias bundle!="bundle install && rake install"
 alias be="bundle exec"
