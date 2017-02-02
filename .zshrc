@@ -70,8 +70,30 @@ openx(){
   fi
 }
 
+source $ZSH/oh-my-zsh.sh
+source $HOME/.keys
+
+# Preferred editor for local and remote sessions
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='vim'
+else
+  export EDITOR='subl'
+fi
+
+# Go to the root of the current git project, or just go one folder up
+function up() {
+  export git_dir="$(git rev-parse --show-toplevel 2> /dev/null)"
+  if [ -z $git_dir ]
+  then
+    cd ..
+  else
+    cd $git_dir
+  fi
+}
+
+# Powerline
 function powerline_precmd() {
-  export PS1="$(~/.oh-my-zsh/felix/powerline-shell.py $? --shell zsh 2> /dev/null)"
+    PS1="$(~/.oh-my-zsh/felix/powerline-shell/powerline-shell.py $? --shell zsh 2> /dev/null)"
 }
 
 function install_powerline_precmd() {
@@ -85,26 +107,5 @@ function install_powerline_precmd() {
 
 install_powerline_precmd
 
-source $ZSH/oh-my-zsh.sh
-source $HOME/.keys
-
-# Preferred editor for local and remote sessions
-if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='vim'
-else
-  export EDITOR='subl'
-fi
-
-
-
-# Go to the root of the current git project, or just go one folder up
-function up() {
-  export git_dir="$(git rev-parse --show-toplevel 2> /dev/null)"
-  if [ -z $git_dir ]
-  then
-    cd ..
-  else
-    cd $git_dir
-  fi
-}
+# Init rbenv
 eval "$(rbenv init -)"
