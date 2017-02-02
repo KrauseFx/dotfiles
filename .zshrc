@@ -21,6 +21,7 @@ alias gbranch="git checkout -b"
 alias gclone="git clone"
 alias g="gittower ."
 alias s="subl ."
+alias o="open ."
 
 function o() {
   z $1 && open .
