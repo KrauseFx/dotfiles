@@ -40,6 +40,9 @@ export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
 export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="$HOME/.fastlane/bin:$PATH"
+export PATH=$HOME/bin:$PATH
+export PATH=$HOME/homebrew/bin:$PATH
+export LD_LIBRARY_PATH=$HOME/homebrew/lib:$LD_LIBRARY_PATH
 
 export FL_PASSWORD="yo"
 
