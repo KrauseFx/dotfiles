@@ -50,6 +50,7 @@ export FL_PASSWORD="yo"
 # we don't want to influence the stats
 export FASTLANE_SKIP_UPDATE_CHECK="1"
 export FASTLANE_OPT_OUT_USAGE="1"
+export FASTLANE_OPT_OUT_CRASH_REPORTING="1"
 
 export LANG=en_US.UTF-8
 
