@@ -23,6 +23,7 @@ alias gclone="git clone"
 alias g="gittower ."
 alias s="subl ."
 alias o="open ."
+alias server="python -m SimpleHTTPServer"
 
 function o() {
   z $1 && open .
