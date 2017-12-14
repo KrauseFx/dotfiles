@@ -24,6 +24,8 @@ alias g="gittower ."
 alias s="subl ."
 alias o="open ."
 alias server="python -m SimpleHTTPServer"
+alias youtube="youtube-dl"
+alias yt="youtube-dl"
 
 function o() {
   z $1 && open .
