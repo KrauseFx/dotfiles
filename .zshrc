@@ -24,8 +24,14 @@ alias g="gittower ."
 alias s="subl ."
 alias o="open ."
 alias server="python -m SimpleHTTPServer"
+
+# Download YouTube videos
 alias youtube="youtube-dl"
 alias yt="youtube-dl"
+
+# Compress pngs
+alias compress_png="pngquant"
+alias png="pngquant"
 
 function o() {
   z $1 && open .
