@@ -44,8 +44,6 @@ function e() {
   subl .
 }
 
-. ~/.fastlane/completions/completion.sh
-
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
 export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 export PATH="/usr/local/heroku/bin:$PATH"
