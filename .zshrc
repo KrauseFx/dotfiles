@@ -52,8 +52,6 @@ export PATH=$HOME/bin:$PATH
 export PATH=$HOME/homebrew/bin:$PATH
 export LD_LIBRARY_PATH=$HOME/homebrew/lib:$LD_LIBRARY_PATH
 
-export FL_PASSWORD="yo"
-
 # we don't want to influence the stats
 export FASTLANE_SKIP_UPDATE_CHECK="1"
 export FASTLANE_OPT_OUT_USAGE="1"
