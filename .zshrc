@@ -24,6 +24,7 @@ alias g="gittower ."
 alias s="subl ."
 alias o="open ."
 alias server="python -m SimpleHTTPServer"
+alias k="source .keys"
 
 # Download YouTube videos
 alias youtube="youtube-dl"
