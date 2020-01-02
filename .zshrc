@@ -24,7 +24,9 @@ alias g="gittower ."
 alias s="subl ."
 alias o="open ."
 alias server="python -m SimpleHTTPServer"
-alias k="source .keys"
+alias kk="source .keys"
+alias k="up && source .env && cd -"
+alias r="up && be rubocop -a"
 
 # Download YouTube videos
 alias youtube="youtube-dl"
