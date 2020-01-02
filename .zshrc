@@ -122,3 +122,7 @@ install_powerline_precmd
 
 # Init rbenv
 eval "$(rbenv init -)"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+pokemonsay Hello Felix
