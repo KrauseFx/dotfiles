@@ -5,9 +5,9 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
-alias zshrc="subl ~/.zshrc"
+alias zshrc="code ~/.zshrc"
 alias bundle!="bundle install && rake install"
 alias be="bundle exec"
 alias bi="bundle install"
@@ -21,7 +21,7 @@ alias gpush="git push"
 alias gbranch="git checkout -b"
 alias gclone="git clone"
 alias g="gittower ."
-alias s="subl ."
+alias s="code ."
 alias o="open ."
 alias server="python -m SimpleHTTPServer"
 alias kk="source .keys"
@@ -44,7 +44,7 @@ function e() {
   _z $1
   git pull
   gittower .
-  subl .
+  code .
 }
 
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
@@ -90,7 +90,7 @@ source $HOME/.keys
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
 else
-  export EDITOR='subl'
+  export EDITOR='code'
 fi
 
 # Go to the root of the current git project, or just go one folder up
@@ -126,3 +126,4 @@ eval "$(rbenv init -)"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 pokemonsay Hello Felix
+
