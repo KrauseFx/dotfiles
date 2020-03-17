@@ -118,7 +118,8 @@ function install_powerline_precmd() {
   precmd_functions+=(powerline_precmd)
 }
 
-install_powerline_precmd
+# Disabled because it has no effect when using Powerlevel10k but slows down prompt by a lot.
+# install_powerline_precmd
 
 # Init rbenv
 eval "$(rbenv init -)"
