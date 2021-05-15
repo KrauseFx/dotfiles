@@ -37,6 +37,10 @@ alias yt="youtube-dl"
 alias compress_png="pngquant"
 alias png="pngquant"
 
+# No one needs HEIC, pls macOS offer one click converstion at some point kthx
+alias heic="magick mogrify -monitor -format jpg *.heic"
+alias HEIC="magick mogrify -monitor -format jpg *.HEIC"
+
 function o() {
   z $1 && open .
 }
