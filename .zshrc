@@ -101,7 +101,7 @@ source $ZSH/oh-my-zsh.sh
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
 else
-  export EDITOR='code'
+  export EDITOR='code --wait'
 fi
 
 # Go to the root of the current git project, or just go one folder up
